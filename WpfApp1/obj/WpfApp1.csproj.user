@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="moovingBook.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="newAuthor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="newBook.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="newGanre.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="newReader.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Selects.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="moovingBook.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="newAuthor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="newBook.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="newGanre.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="newReader.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Selects.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

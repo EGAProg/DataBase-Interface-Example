@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.MoovingBook"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="moovingBook" Height="334" Width="845" ResizeMode="CanMinimize">
+    <Grid x:Name="moovingGrid" Margin="0,0,601,174">
+        <Button x:Name="AddBookBtn" Content="Add" HorizontalAlignment="Left" Margin="114,63,0,0" VerticalAlignment="Top" Height="27" Width="90" Click="AddBookBtn_Click" />
+        <TextBox x:Name="bookTextBox" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Book" VerticalAlignment="Top" Width="194" Height="22"/>
+        <TextBox x:Name="readerTextBox" HorizontalAlignment="Left" Margin="10,37,0,0" TextWrapping="Wrap" Text="Reader" VerticalAlignment="Top" Width="194" Height="22"/>
+        <Label x:Name="StatusLBL" Content="" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="97"/>
+        <Grid x:Name="innerGrid" Margin="245,0,-601,-174">
+            
+        </Grid>
+    </Grid>
+</Window>
