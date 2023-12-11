@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YbvTieB+2nEah/7vBW0whWvlfC7iuTy7GCwYaxLgqoXHbUf9PX2ApiduyqWznEMfqkEjcRuLS8cHjCgKs8wHJQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\OPPYM\\source\\repos\\WpfApp1\\WpfApp1\\WpfApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OPPYM\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\OPPYM\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\OPPYM\\.nuget\\packages\\npgsql\\8.0.0\\npgsql.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
